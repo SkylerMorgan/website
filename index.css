@@ -1,6 +1,17 @@
 body{
 	background-image: url("http://blog.hostbaby.com/wp-content/uploads/2013/07/scuffedstatic_dark1400x900.jpg");
 }
+h1{
+	padding: 0px 10px;
+	background-color: #555555;
+	display: block;
+	border-radius: 3px;
+	color: #cccccc;
+	font-family: Oxygen, Times, serif;
+	position: fixed;
+	top: 10%;
+	left: 30.5%;
+}
 ul li a{
 		display: block;
 	background-color: #555555;
@@ -22,9 +33,4 @@ li .active {
 li a:hover:not(.active) {
     background-color: #444444;
     color: white;
-}
-h1{
-	position: fixed;
-	top: 10%;
-	left: 30.5%;
 }
